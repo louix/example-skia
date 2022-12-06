@@ -1,0 +1,27 @@
+{
+  "name": "example-skia",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --dev-client --clear",
+    "build--android": "eas build --clear-cache --local --platform android --profile development"
+  },
+  "dependencies": {
+    "expo": "47.0.8",
+    "expo-dev-client": "2.0.1",
+    "expo-status-bar": "1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-reanimated": "2.12.0",
+    "@shopify/react-native-skia": "0.1.163"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.70.6",
+    "typescript": "^4.6.3",
+    "eas-cli": "2.8.0"
+  },
+  "private": true
+}
